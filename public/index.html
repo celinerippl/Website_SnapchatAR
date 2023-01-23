@@ -2,132 +2,151 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
+<script>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyCW5nf0_ZkRDf_cXZWhQc_Zju9luZBQ23Y",
+        authDomain: "crossmediasnapchat.firebaseapp.com",
+        projectId: "crossmediasnapchat",
+        storageBucket: "crossmediasnapchat.appspot.com",
+        messagingSenderId: "29355819205",
+        appId: "1:29355819205:web:a9d25e007d52b03440b0ac"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+</script>
 
 <body>
-  <div>
-    <header>
-      <table>
-        <tr>
-          <th class="logoPlacement">
-            <img src="pictures/Logo_groß.png" class="logo">
-          </th>
-          <th class="menu">
-            <li class="search">
-              <img src="pictures/searchIcon.png" class="magnifierIcon">
-              <p class="searchText">Suche</p>
-            </li>
-            <li class="location">
-              <img src="pictures/locationIcon.png" class="locationIcon">
-              <p class="locationText">DE</p>
-            </li>
-            <li class="login">
-              <img src="pictures/loginIcon.png" class="loginIcon">
-              <p class="loginText">Login</p>
-            </li>
-            <li class="cart">
-              <img src="pictures/cartIcon.png" class="cartIcon">
-              <p class="cartText">0</p>
-            </li>
-          </th>
-        </tr>
-      </table>
+    <div>
+        <header>
+            <table>
+                <tr>
+                    <th class="logoPlacement">
+                        <img src="pictures/Logo_groß.png" class="logo">
+                    </th>
+                    <th class="menu">
+                        <li class="search">
+                            <img src="pictures/searchIcon.png" class="magnifierIcon">
+                            <p class="searchText">Suche</p>
+                        </li>
+                        <li class="location">
+                            <img src="pictures/locationIcon.png" class="locationIcon">
+                            <p class="locationText">DE</p>
+                        </li>
+                        <li class="login">
+                            <img src="pictures/loginIcon.png" class="loginIcon">
+                            <p class="loginText">Login</p>
+                        </li>
+                        <li class="cart">
+                            <img src="pictures/cartIcon.png" class="cartIcon">
+                            <p class="cartText">0</p>
+                        </li>
+                    </th>
+                </tr>
+            </table>
 
-      <div class="navigation">
+            <div class="navigation">
 
-        <div class="sweaters">
-          <span>Sweaters</span>
-          <div class="dropdownContent">
-            <a href="" class="navigationText">Sweater Caro</a>
-            <a href="" class="navigationText">Sweater Miro</a>
-          </div>
-        </div>
+                <div class="sweaters">
+                    <span>Sweaters</span>
+                    <div class="dropdownContent">
+                        <a href="" class="navigationText">Sweater Caro</a>
+                        <a href="" class="navigationText">Sweater Miro</a>
+                    </div>
+                </div>
 
+                <br>
+
+                <div class="accessoires">
+                    <span>Accessoires</span>
+                    <div class="dropdownContent">
+                        <a href="" class="navigationText">Sunglasses</a>
+                        <a href="" class="navigationText">Earrings</a>
+                        <a href="https://crossmediasnapchat.web.app/capAnna.html" class="navigationText">Cap</a>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="bottoms">
+                    <span>Bottoms</span>
+                    <div class="dropdownContent">
+                        <a href="" class="navigationText">Trousers</a>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="tops">
+                    <span>Tops</span>
+                    <div class="dropdownContent">
+                        <a href="" class="navigationText">Top Lina</a>
+                        <a href="" class="navigationText">Top Tino</a>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+    </div>
+
+
+    <h3> Home > Women > BLAZER</h3>
+    <img src="pictures/pictureFront.avif" class="pictureFront">
+    <img src="pictures/pictureBack.avif" class="pictureBack">
+    <div class="productInformation">
+        <h2 class="productName">BLAZER</h2>
+        <p class="price">295 €</p>
+        <p class="priceInfo">(inkl. MwSt. zzgl. Versand)</p>
+    </div>
+
+    <div class="colours">
+        <p>Schwarz</p>
+        <img src="pictures/colour_1.png" class="colour1">
+        <img src="pictures/colour_2.png" class="colour2">
+        <img src="pictures/colour_3.png" class="colour3">
         <br>
-
-        <div class="accessoires">
-          <span>Accessoires</span>
-          <div class="dropdownContent">
-            <a href="" class="navigationText">Sunglasses</a>
-            <a href="" class="navigationText">Earrings</a>
-            <a href="" class="navigationText">Cap</a>
-          </div>
-        </div>
-
+    </div>
+    <div class="sizes">
+        <p class="size">Größe</p>
         <br>
-
-        <div class="bottoms">
-          <span>Bottoms</span>
-          <div class="dropdownContent">
-            <a href="" class="navigationText">Trousers</a>
-          </div>
-        </div>
-
+        <button class="size1">S</button>
+        <button class="size2">L</button>
+        <button class="size3">XXL</button>
         <br>
-
-        <div class="tops">
-          <span>Tops</span>
-          <div class="dropdownContent">
-            <a href="" class="navigationText">Top Lina</a>
-            <a href="" class="navigationText">Top Tino</a>
-          </div>
-        </div>
-      </div>
-
-    </header>
-  </div>
-
-
-  <h3> Home > Women > BLAZER</h3>
-  <img src="pictures/pictureFront.avif" class="pictureFront">
-  <img src="pictures/pictureBack.avif" class="pictureBack">
-  <div class="productInformation">
-    <h2 class="productName">BLAZER</h2>
-    <p class="price">295 €</p>
-    <p class="priceInfo">(inkl. MwSt. zzgl. Versand)</p>
-  </div>
-
-  <div class="colours">
-    <p>Schwarz</p>
-    <img src="pictures/colour_1.png" class="colour1">
-    <img src="pictures/colour_2.png" class="colour2">
-    <img src="pictures/colour_3.png" class="colour3">
-    <br>
-  </div>
-  <div class="sizes">
-    <p class="size">Größe</p>
-    <br>
-    <button class="size1">S</button>
-    <button class="size2">L</button>
-    <button class="size3">XXL</button>
-    <br>
-    <br>
-    <br>
-    <br>
-  </div>
-  <div class="buttonPutIntoCart">
-    <button type="button" onclick="alert('Ihr Artikel wurde dem Warenkorb hinzugefügt!')" class="putIntoCart">In den
-      Warenkorb</button>
-  </div>
-  <div class="buttonFavourites">
-    <img src="pictures/favourites.png" class="favourites">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-  </div>
-  <div class="descriptions">
-    <h2 class="description">Beschreibung</h2>
-    <img src="pictures/plus.png" class="plusDescription">
-    <p class="underline">_____________________________________</p>
-    <h2 class="careInstructions">Material & Pflege</h2>
-    <img src="pictures/plus.png" class="plusCareInstructions">
-    <p class="underline">_____________________________________</p>
-  </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="buttonPutIntoCart">
+        <button type="button" onclick="alert('Ihr Artikel wurde dem Warenkorb hinzugefügt!')" class="putIntoCart">In den
+            Warenkorb</button>
+    </div>
+    <div class="buttonFavourites">
+        <img src="pictures/favourites.png" class="favourites">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="descriptions">
+        <h2 class="description">Beschreibung</h2>
+        <img src="pictures/plus.png" class="plusDescription">
+        <p class="underline">_____________________________________</p>
+        <h2 class="careInstructions">Material & Pflege</h2>
+        <img src="pictures/plus.png" class="plusCareInstructions">
+        <p class="underline">_____________________________________</p>
+    </div>
 </body>
 
 </html>
