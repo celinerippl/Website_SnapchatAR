@@ -366,7 +366,7 @@
     }
 
     .accessoires:hover .dropdownContent {
-        display: block;
+        display: contents;
     }
 
     .bottoms {
