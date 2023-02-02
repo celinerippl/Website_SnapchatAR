@@ -448,15 +448,11 @@
         width: 100%;
     }
 
-    .pictureBack {
-        display: none;
-    }
-
     .productInformation {
         margin-left: 20px;
         display: inline-block;
         width: 100%;
-        margin-top: -25px;
+        margin-top: -15px;
     }
 
     .price {
@@ -480,6 +476,7 @@
         margin-left: 20px;
         display: inline-block;
         width: 100%;
+        margin-top: 5px;
     }
 
     .colour1 {
