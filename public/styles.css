@@ -343,7 +343,7 @@
     }
 
     .navigation {
-        width: 90%;
+        width: 98%;
         display: flex;
         padding-left: 20px;
         padding-right: 20px;
@@ -404,7 +404,7 @@
 
     a {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
+        font-size: 8px;
         color: #222;
         text-decoration: none;
         width: 20%;
@@ -415,9 +415,9 @@
         padding-left: 10px;
     }
 
-    .navigationText {
+    span {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /*header Mobile ends*/
@@ -451,7 +451,7 @@
     .productInformation {
         margin-left: 20px;
         display: inline-block;
-        width: 100%;
+        width: 90%;
         margin-top: -15px;
     }
 
@@ -475,7 +475,7 @@
     .colours {
         margin-left: 20px;
         display: inline-block;
-        width: 100%;
+        width: 90%;
         margin-top: 5px;
     }
 
@@ -499,7 +499,7 @@
     .sizes {
         margin-left: 20px;
         display: inline-block;
-        width: 100%;
+        width: 90%;
     }
 
     .size {
@@ -551,26 +551,13 @@
         margin-left: 20px;
         font-size: 18px;
         display: inline-block;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .plusDescription {
         display: inline-block;
         width: 3%;
-        margin-left: 50.5%;
-    }
-
-    .careInstructions {
-        margin-left: 20px;
-        font-size: 18px;
-        display: inline-block;
-        margin-top: 10px;
-    }
-
-    .plusCareInstructions {
-        display: inline-block;
-        width: 3%;
-        margin-left: 41.5%;
+        margin-left: 45%;
     }
 
     .underline {
